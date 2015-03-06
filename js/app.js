@@ -12,18 +12,18 @@ app.config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
     .state('home', {
       url : '/home',
-      templateUrl : '/html/home.html'
+      templateUrl : '../html/home.html'
     })
     .state('about', {
       url : '/about',
-      templateUrl : '/html/about.html'
+      templateUrl : '../html/about.html'
     })
     .state('contact', {
       url : '/contact',
-      templateUrl : '/html/contact.html'
+      templateUrl : '../html/contact.html'
     })
     .state('news', {
       url : '/news',
-      templateUrl : '/html/news.html'
+      templateUrl : '../html/news.html'
     })
 });
